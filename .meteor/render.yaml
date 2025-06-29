@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: retake-web
+    env: node
+    buildCommand: |
+      curl https://install.meteor.com | sh
+      meteor npm install
+    startCommand: |
+      meteor run --settings settings.json --exclude-archs web.browser.legacy --port $PORT
+    envVars:
+      - key: MONGO_URL
+        value: mongodb://localhost/retake
