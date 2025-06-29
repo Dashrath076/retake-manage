@@ -1,0 +1,19 @@
+.DButtons{
+    justify-content: space-between;
+}
+
+.editButton{
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.deleteButton{
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+.MuiSnackbar-root{
+    z-index: 40000;
+}

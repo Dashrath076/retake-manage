@@ -1,0 +1,50 @@
+.dropdown {
+    position: fixed;
+    top: 4rem;
+    right: 0.1rem;
+    width: 200px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: white;
+    border: 1px solid lightgrey;
+    align-content: space-between;
+    z-index: 9999;
+}
+
+ .dropdown .dp1{
+    margin-left: -2vh;
+    }
+.dropdown .dp1 .icon{
+    display: flex;
+    margin-left: 0vh;
+    height: 40px;
+    min-width: 40px;
+    font-weight: 600;
+    font-size: 25px;
+    border: 1px solid black;
+    background-color: lightgray;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.dropdown .dp1 .dp{
+    display: flex;
+}
+.dropdown .dp1 .dp .name{
+    margin-left: 2vh;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.dropdown .dp1 .dp .name .email{
+    margin-left: 0vh;
+    color: gray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.dropdown .dp1 .manageAccount{
+    padding-top: 5px;
+    margin-left: 0.1vh;
+    color: black;
+}
+.dropdown .dp1 .logout{
+    margin-left: 0.1vh;
+    padding-top: 20px;
+}

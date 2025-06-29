@@ -1,0 +1,49 @@
+.navigation{
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    flex-wrap: wrap;
+    margin-left: 0%;
+    height: 53px;
+}
+.rightSide{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    justify-content: end;
+}
+
+ .navigation  .Icon{
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+    background-color: lightgray;
+    border-radius: 50%;
+    font-size: 25px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navigation .rightSide .name{
+    font-weight: bold;
+}
+.navigation .rightSide .name .admin{
+    font-weight: 150;
+}
+.navigation .rightSide .drop{
+   margin-top: 22px;
+   gap: 2vh;
+   display: flex;
+   padding: 10px;
+   width: 300px;
+   height: 150px;
+}
+.navigation .rightSide .drop .select{
+    margin-left: 17px;
+    margin-top: 7%;
+}
+nav{
+    background-color: green;
+}

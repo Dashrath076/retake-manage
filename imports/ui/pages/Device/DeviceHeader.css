@@ -1,0 +1,143 @@
+.deviceheader {
+    margin: 0px 10px;
+    margin-left: 20%;
+    margin-right: 1%;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 1rem;
+    min-height: 70vh;
+    padding: 15px;
+}
+
+.devicesubheader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+    padding: 10px 15px;
+    border: 1px solid black;
+    color: black;
+    background: transparent;
+    border-radius: 8px;
+    height: 26px
+}
+.search{
+    margin-left: 10px;
+}
+h5 {
+    margin: 0;
+    padding: 0;
+}
+
+.deviceleft {
+    display: flex;
+}
+.deviceright {
+    display: flex;
+    gap: 10px; 
+}
+.deviceright button {
+    padding: 10px 15px;
+    outline: none;
+    border: none;
+    background: '#DDFFEC';
+    border-radius: 10px;
+    color: white;
+}
+
+.devicebutton {
+    background: #00DC5E;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.deviceright button:first-child{
+    padding: 10px 15px;
+    outline: none;
+    border: 1px solid #00DC5E;
+    background: transparent;
+    color: black;
+    cursor: pointer;
+}
+.allDevices {
+    display: flex;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.alldevice {
+    flex: 1;
+
+}
+.categories {
+    border-radius: 8px;
+    border: 1px solid rgba(77, 218, 171, 0.993);
+    height: 25px;
+    background-color: rgb(243, 242, 242);
+    font-weight: bold;
+    overflow-x: hidden;
+    white-space: nowrap;
+    min-width: 20vh;
+}
+.select{
+    border-radius: 10px;
+    margin-left: 8px;
+    margin-top: 2px;
+    background-color: rgb(243, 242, 242);
+    width:20px;
+    margin-right: 5px;
+}
+
+.alldevices {
+    border-radius: 8px;
+    border: 1px solid rgba(77, 218, 171, 0.993);
+    height: 25px;
+    background-color: rgb(243, 242, 242);
+    font-weight: bold;
+    width: 111px;
+}
+.search-cate{
+    display: flex;
+}
+
+/* .allDevices select:first-child{
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: 1px solid rgba(77, 218, 171, 0.993);
+    background-color: rgb(243, 242, 242);
+    font-weight: bold;
+} */
+@media only screen and (max-width:475px){
+    .alldevices{
+        min-width: 20%;
+        min-height:5%
+    }
+    .categories{
+        min-width: 10%;
+        min-height: 5%;
+    }
+}
+  
+  .devicebutton {
+    margin-right: 10px; /* Adjust the right margin for 'Add new device' button */
+  }
+  @media only screen and (min-width: 1024px) {
+    .deviceheader {
+        margin-left: 20%;
+        margin-right: 1%;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1023px) {
+    .deviceheader {
+        margin-left: 25%;
+        margin-right: 5%;
+    }
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px){
+  .deviceheader {
+      margin-left: 35%;
+      margin-right: 1%;
+  }
+}

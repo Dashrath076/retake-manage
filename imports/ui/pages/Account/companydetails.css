@@ -1,0 +1,107 @@
+.collapsee {
+    flex-wrap: wrap;
+    width: -webkit-fill-available;
+    padding: 10px;
+    position: absolute;
+    margin: 0;
+    top: 28%;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 0%;
+    margin-right: 1%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    min-height: fit-content;
+  }
+
+  .collapsedd {
+    margin-top: 10%;
+    max-height: 0;
+    position: absolute;
+    overflow: hidden;
+  }
+  .contentt {
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+  }
+
+  .collapsee p {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    font: icon;
+    font-weight: bold;
+  }
+
+.cprofile{
+    display: flex;
+    gap: 48px;
+}
+.companyin{
+    height: 25px;
+    width: 299px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+}
+.ver{
+    color: indianred;
+    font-size: 10px;
+    border-radius: 10px;
+    background: lightgoldenrodyellow;
+    margin: 6px;
+}
+.ver1{
+    color: lightblue
+}
+.bsave{
+    background-color: #00DC5E;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    min-width: 99px;
+    height: 30px;
+    padding: 10px;
+}
+
+/* Responsive styles for larger screens */
+@media screen and (min-width: 992px) {
+  .collapsee {
+    top: 24%;
+    /* Adjust top position for larger screens */
+    flex-wrap: wrap;
+    width: -webkit-fill-available;
+    padding: 10px;
+    position: absolute;
+  }
+}
+/* for desktop */
+@media screen and (min-width: 1025px) {
+  .collapsee {
+    top: 24%;
+    /* Adjust top position for larger screens */
+    flex-wrap: wrap;
+    width: -webkit-fill-available;
+    padding: 10px;
+    position: absolute;
+  }
+}
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 780px) {
+  .collapsee {
+    justify-content: center;
+    padding: 10px;
+    margin-right: 6px;
+    margin-left: 6px
+  }
+}
+
+@media screen and (max-width: 434px){
+
+.collapsee {
+  justify-content: center;
+  padding: 10px;
+  margin-left: 5%;
+}
+}

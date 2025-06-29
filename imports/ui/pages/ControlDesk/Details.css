@@ -1,0 +1,130 @@
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  flex-wrap: wrap;
+  margin-left: 20%;
+  margin-right: 1%;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  height: 150px;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+  min-width: 300px;
+  position: relative;
+  overflow: hidden;
+}
+
+.card .name {
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+  margin-top: 8%;
+  position: absolute;
+  bottom: 64px;
+}
+
+.card .count {
+  display: flex;
+  font-size: 25px;
+  font-weight: 700;
+  color: black;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.card .subText {
+  color: black;
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+.card .addtext,
+.card .oredrBtn {
+  padding: 8px 13px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 700;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  bottom: 23px;
+  left: 70%;
+  transform: translateX(-50%);
+  min-width: 148px;
+}
+
+.card .oredrBtn {
+  background-color: #00dc5e;
+  bottom: 7px;
+}
+
+.cards .card .dicon {
+  margin-top: 3%;
+  justify-content: space-between;
+  display: flex;
+  color: #00dc5e;
+}
+
+.countnumber {
+  position: absolute;
+  bottom: 23px;
+  font-weight: bold;
+  font-size: 30px;
+}
+.insButton{
+  display: flex;
+    /* margin-bottom: 41px; */
+    margin-top: 50px;
+    justify-content: space-between;
+}
+.inscount{
+  font-weight: bold;
+  font-size: 27px;
+}
+.instextbutton{
+  border: none;
+  border-radius: 9px;
+  padding: 7px 20px ;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/* Media Queries for Responsive Design */
+
+/* For Mobile */
+@media (max-width: 768px) {
+  .cards {
+    margin-right: 2%;
+  }
+  .card{
+    min-width: -webkit-fill-available;
+  }
+}
+
+/* For Tablets */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .cards {
+    margin-right: 2%;
+  }
+}
+
+/* For Laptops */
+@media only screen and (min-width: 992px) and (max-width: 1023px) {
+  .cards {
+        margin-right: 2%;
+  }
+}
+
+/* For Desktops */
+@media only screen and (min-width: 1024px) {
+  .cards {
+    margin-right: 2%;
+  }
+}

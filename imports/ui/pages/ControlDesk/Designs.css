@@ -1,0 +1,51 @@
+.designs{
+    min-height: 80vh;
+}
+
+.frame{
+    margin-left: 20%;
+    background-color: #DDF3E7;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 2%;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.frame1{
+    margin-top: 1%;
+    margin-left: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 2%;
+}
+.img2{
+    width: -webkit-fill-available;
+}
+.img1{
+    width: -webkit-fill-available;
+}
+.swipeBar{
+    margin-left: 20%;
+    margin-right: 1%;
+}
+.swipeButton{
+    top: -85px;
+    left: 50px;
+    color: white;
+    background: #00DC5E;
+    border-radius: 7px;
+    height: 40px;
+    padding: 19px;
+}
+
+@media only screen and (max-width:475px){
+    .frame{
+        width: 80%;
+        margin-right: 2%;
+    }
+    .frame1{
+        width: 80%;
+        margin-right: 2%;
+    }
+}

@@ -1,0 +1,9 @@
+.subscribe-form {
+    display: flex;
+}
+
+.removeButton {
+    height: 20px;
+    margin-top: 6%;
+}
+

@@ -1,0 +1,106 @@
+.employeheader {
+    margin-left: 20%;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 1rem;
+    min-height: 80vh;
+    padding: 15px;
+}
+
+.employesubheader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+    padding: 10px 15px;
+    border: 1px solid black;
+    color: black;
+    background: transparent;
+    border-radius: 8px;
+}
+.search{
+    margin-left: 10px;
+}
+h5 {
+    margin: 0;
+    padding: 0;
+}
+
+.employeleft {
+    display: flex;
+}
+
+.employeright button {
+    padding: 10px 15px;
+    outline: none;
+    border: none;
+    background: '#DDFFEC';
+    border-radius: 10px;
+    color: white;
+}
+
+.employebutton {
+    background: #00DC5E;
+    cursor: pointer;
+}
+.employeright button:first-child{
+    padding: 10px 15px;
+    outline: none;
+    border: 1px solid #00DC5E;
+    background: #00DC5E;
+    color: black;
+}
+.allEmployees {
+    display: flex;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.allemploye {
+    flex: 1;
+
+}
+.allemployees {
+    border-radius: 8px;
+    border: 1px solid rgba(77, 218, 171, 0.993);
+    background-color: rgb(243, 242, 242);
+    height: 25px;
+    width:130px;
+    font-weight: bold;
+    overflow-x: hidden;
+    white-space: nowrap;
+}
+.categoriesTeam{
+    border-radius: 8px;
+    border: 1px solid rgba(77, 218, 171, 0.993);
+    height: 25px;
+    background-color: rgb(243, 242, 242);
+    font-weight: bold;
+    overflow-x: hidden;
+    white-space: nowrap;
+    width: 70px;
+}
+
+@media only screen and (max-width:475px){
+    .search{
+        width: 104px;
+    }
+    .allemployees{
+        width: 135px;
+    }
+    @media only screen and (max-width:780px){
+        .allemployees{
+            width: 130px;
+        }
+    }
+    /* .allemployees{
+        min-width: 10%;
+    }
+    .categoriesTeam{
+        min-width: 10%;;
+    } */
+}
+
+

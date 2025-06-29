@@ -1,0 +1,68 @@
+.accountHeader {
+    display: flex;
+    margin-top: 0;
+    margin-left: 233px;
+    background: rgba(252, 252, 252, 0.973);
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 27px;
+    padding-bottom: 13px;
+}
+.profile{
+    background: rgba(252, 252, 252, 0.973);
+    border: 0px solid white;
+    font-weight: bold;
+}
+.pacc .profile:focus {
+    outline: none;
+    position: relative;
+  }
+  
+  .pacc .profile:focus::after {
+    content: '';
+    position: absolute;
+    bottom: -11px; 
+    left: 0;
+    width: 100%;
+    border-bottom: 4px solid #00DC5E;
+  }
+.accountHeader  .pacc{
+    padding: 5px;
+    width: 200px;
+    height: 24px;
+}
+.accountHeader  .pacc .profile{
+    cursor: pointer;
+}
+.accountHeader  .pacc .company-details{
+    cursor: pointer;
+}
+.accountHeader  .pacc .address-management{
+    cursor: pointer;
+}
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 767px) {
+    .accountHeader {
+      margin-left: 58px; /* Adjust margins for smaller screens */
+      justify-content: center; /* Center items */
+      padding: 10px; /* Adjust padding */
+    }
+    
+    .accountHeader .pacc {
+      width: auto; /* Allow width to adjust */
+      margin-top: 10px; /* Modify margin top */
+    }
+    
+    .accountHeader .pacc .profile {
+      width: auto; /* Allow width to adjust */
+    }
+  }
+  
+  /* Responsive styles for larger screens */
+  @media screen and (min-width: 992px) {
+    .accountHeader {
+      margin-left: 220px; /* Original margin for larger screens */
+      /* Add other styles for larger screens */
+    }
+  }

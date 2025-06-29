@@ -1,0 +1,40 @@
+{
+  "name": "Retake-web",
+  "private": true,
+  "scripts": {
+    "start": "set MONGO_URL=mongodb://localhost/retake && meteor run --settings settings.json --exclude-archs web.browser.legacy --port 3000",
+    "test": "meteor test --once --driver-package meteortesting:mocha",
+    "test-app": "TEST_WATCH=1 meteor test --full-app --driver-package meteortesting:mocha",
+    "visualize": "meteor --production --extra-packages bundle-visualizer"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.23.2",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@material-ui/core": "^4.12.4",
+    "@mui/icons-material": "^5.14.14",
+    "@mui/material": "^5.14.12",
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "common": "^0.2.5",
+    "form-serialize": "^0.7.2",
+    "meteor-node-stubs": "^1.2.5",
+    "qs": "^6.11.2",
+    "react": "^18.2.0",
+    "react-data-table-component": "^7.5.4",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.11.0",
+    "react-query": "^3.39.3",
+    "react-router-dom": "^6.17.0",
+    "react-swipeable-views": "^0.14.0",
+    "react-swipeable-views-utils": "^0.14.0",
+    "styled-components": "^6.1.0"
+  },
+  "meteor": {
+    "mainModule": {
+      "client": "client/main.js",
+      "server": "server/main.js"
+    },
+    "testModule": "tests/main.js"
+  }
+}

@@ -1,0 +1,115 @@
+.User{
+    font-family: sans-serif;
+    display: flex;
+    background: white;
+}
+.login-image{
+    height: 36vh;
+    width: 69.5vh;
+    align-self: flex-start;
+}
+
+.hhh{
+    margin-bottom: 40px;
+    margin-top: 70px;
+    text-align: center;
+    color:black;
+}
+.form{
+    text-align: center;
+    flex-direction: column;
+    margin: auto;
+    display: flex;
+    width: 300px;
+}
+
+.input{
+    height:25px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    border: 1px solid rgb(42, 224, 5);
+    border-radius: 10px;
+}
+input[type="text"] {
+    padding-right: 30px;
+    margin-top: 9px;
+    height: 25px;
+    border-radius: 10px;
+}
+.button{
+    height: 30px;
+    border: 1px solid rgb(42, 224, 5);
+    cursor: pointer;
+    border-radius: 15px;
+    width: 140px;
+    background: rgb(6, 233, 6);
+    font-weight: bold;
+    margin-top: 12px;
+    gap: 38px;
+}
+.link{
+    color: black;
+    font-weight: 500px;
+}
+.link:hover{
+    color: grey;
+    cursor: pointer;
+}
+.links{
+    display: flex;
+    gap: 35px;
+}
+.field{
+    display: flex;
+    justify-content: space-between
+}
+.dob{
+    align-self: baseline;
+    font-size: smaller;
+    color: rgb(97, 99, 97);
+    margin-left: 15px;
+}
+.emailforgotten{
+    height:25px;
+    width: 225px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    border: 1px solid rgb(42, 224, 5);
+    color: #2ae005;
+    border-radius: 10px;
+}
+.buttonforgotten{
+    height: 30px;
+    border: 1px solid rgb(42, 224, 5);
+    cursor: pointer;
+    border-radius: 15px;
+    width: 140px;
+    background: rgb(6, 233, 6);
+    font-weight: bold;
+    margin-top: 12px;
+    gap: 38px;
+}
+@media screen and (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    .User {
+        flex-direction: column; /* Change to a column layout for smaller screens */
+        align-items: center; /* Center items vertically */
+    }
+
+    /* Update styles for forms */
+    .User-Login {
+        width: 100%; /* Adjust form width for smaller screens */
+        /* Add other necessary adjustments */
+    }
+
+    .button,
+    .buttonforgotten {
+        width: 100%; /* Make buttons full width */
+        /* Adjust other button styles */
+    }
+
+    .links {
+        flex-direction: column; /* Stack links vertically */
+        margin-top: 15px; /* Add margin for better spacing */
+    }
+}

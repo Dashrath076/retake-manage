@@ -1,0 +1,28 @@
+.input-member{
+    min-width: 221px;
+    height: 17px;
+    border-radius: 10px;
+    
+}
+.sub-main{
+    display:'flex';
+    justify-content:'space-between';
+}
+.select-member{
+    width: 161px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+}
+.button-member{
+    background-color: #00DC5E;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    height: 29px;
+    padding: 10px;
+    padding-left: 26px;
+    padding-right: 26px;
+    padding-top: 6px;
+    margin: 26px 138px;
+    display: flex;
+}

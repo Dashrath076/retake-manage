@@ -1,0 +1,1 @@
+export default /^\+?\d{8,20}$/;

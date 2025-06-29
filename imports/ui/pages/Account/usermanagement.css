@@ -1,0 +1,57 @@
+.user-main{
+    position: absolute;
+    left:260px;
+    right: 7px;
+    background-color: white;
+    border-radius: 10px;
+    top: 8rem;
+    min-height: 80vh;
+    padding: 12px;
+}
+.user{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.team-mem{
+    font-weight: bold;
+}
+.mem-count{
+    color: rgb(0, 220, 94);
+    background-color: rgb(221, 255, 236);
+    padding: 2px;
+    border-radius: 5px;
+}
+.add-new-mem{
+    background-color: #00DC5E;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 37px;
+    padding-right: 34px;
+}
+
+/* Responsive styles for larger screens */
+@media screen and (min-width: 992px) {
+   
+  }
+  
+  /* for desktop */
+  @media only screen and (min-width: 1025px) {
+    
+  }
+  
+  /* Responsive styles for smaller screens */
+  @media screen and (max-width: 780px) {
+    .user-main{
+        top: 10rem;
+        left: 70px;
+    }
+  }  
+    @media screen and (max-width: 434px) {
+        .user-main{
+            top: 10rem;
+        }  
+    }
+

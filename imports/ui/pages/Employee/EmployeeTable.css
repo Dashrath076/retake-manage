@@ -1,0 +1,12 @@
+.editButton{
+    border: none;
+    background: none;
+}
+.deleteButton{
+    border: none;
+    background: none;
+}
+
+.MuiSnackbar-root{
+    z-index: 40000;
+}
